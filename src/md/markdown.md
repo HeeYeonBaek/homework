@@ -175,9 +175,7 @@ h1과 h2는 다음과 같이 줄 형태로도 작성할 수 있다.
 '링크'와 같은 구조를 가지고 가지만 앞에 '!'를 추가한다.
 
 예시)
-![이미지이름](이미지주소)
-![이미지이름](이미지주소 '이미지설명')
+`![이미지이름](이미지주소)
+![이미지이름](이미지주소 '이미지설명')`
 
 ![image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQouoXuo0kg4yATM0A8NXR-8de9v2x4SoprpgXQn5xDfum5Uf-JHB5pXZKBthsMpN-iAHpL_j8Q0_KKCSVVLXYr0HEoreNBbp16uBkyDA&s=10 '산리오캐릭터즈의 멤버 쿠로미입니다.')
-
-[Image]: https://i.namu.wiki/i/f0cH4ggbrkBHYMHthSXCNCcp-F3CHc_9lZVqk9dx5DimnlPfDXSJjEg5V7RJ9plvu7jEgdDqy3dmA10J9acqpQ.webp '같은 친구 마이멜로디입니다.'
