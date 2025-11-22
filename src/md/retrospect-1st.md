@@ -2,6 +2,8 @@
 
 ### ERROR를 무서워 하지 마라!
 
+![멍청이짤](https://mblogthumb-phinf.pstatic.net/MjAxOTA0MThfMTYz/MDAxNTU1NTc5ODQ1OTcw.qM-960jes18ZaW81JAXSWOpTpW7R9yBJt95fDvCqXGkg._tIBjnRehgOl4bLrfZaZRv8M7PhfmxVPb30Hi2dJdzcg.JPEG.ondo_h/SE-d9cb83b5-c46d-46e3-a8e6-7eee8c067bb0.jpg?type=w800)
+
 ~생각나는 대로 적어보겠습니다...~
 
 - 수업을 들으면서 기록한 노트를 바탕으로 기록하였습니다.
