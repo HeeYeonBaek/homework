@@ -41,7 +41,7 @@ Xhtml의 경우 규칙을 매우 엄격하게 준수해야하고 소문자만을
 
 ---
 
-- html 마크업 언어에서 <br>, <hr> 등 하나로만 끝나는 마크업은 'empty element'라고 한다.
+- html 마크업 언어에서 br, hr 등 하나로만 끝나는 마크업은 'empty element'라고 한다.
 
 - 시작~종료 태그 모두 포함한 마크업은 element라고 칭한다. <div></div> => element
 
@@ -56,21 +56,23 @@ Xhtml의 경우 규칙을 매우 엄격하게 준수해야하고 소문자만을
 2. 빈 요소(empty element)
    => xhtml에서는 종료 시 </> 형식으로 마무리한다. 이 형식은 React 내에서 JSX 문법으로 채택되어 있어 html 작성 시에도 종료 시 </>를 사용한다.
 
-=> 논리속성은 속성 값을 지정 또는 생략 가능하다.
+```
+- 논리속성은 속성 값을 지정 또는 생략 가능하다.
 
-=> 속성값은 인용부호를 생략하거나 따옴표로 구분한다.
+- 속성값은 인용부호를 생략하거나 따옴표로 구분한다.
 
-=> 시작태그와 동일한 속성 중복사용이 불가하다.
+- 시작태그와 동일한 속성 중복사용이 불가하다.
 
-=> 특수문자는 Entity code로 변환하고 Name 속성으로 사용할 것을 권장한다.
+- 특수문자는 Entity code로 변환하고 Name 속성으로 사용할 것을 권장한다.
+```
 
 [사용예시]
-| `&lt;` | `&#60;` | < | Less than (보다 작은) |
-| `&gt;` | `&#62;` | > | Greater than (보다 큰) |
-| `&amp;` | `&#38;` | & | Ampersand (앰퍼샌드) |
-| `&quot;` | `&#34;` | " | Quotation mark (쌍따옴표) |
-| `&apos;` | `&#39;` | ' | Apostrophe (작은따옴표) |
-| `&nbsp;` | `&#160;` | | Non-breaking space (줄바꿈 없는 공백) |
+| &lt;` | &#60; | < | Less than (보다 작은) |
+| &gt;` | &#62; | > | Greater than (보다 큰) |
+| &amp;` | &#38; | & | Ampersand (앰퍼샌드) |
+| &quot; | &#34; | " | Quotation mark (쌍따옴표) |
+| &apos; | &#39; | ' | Apostrophe (작은따옴표) |
+| &nbsp; | &#160; | | Non-breaking space (줄바꿈 없는 공백) |
 
 - parsing = 해석
 - DOCTYPE = 문서타입
