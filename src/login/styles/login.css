@@ -1,1 +1,112 @@
 /* CSS를 활용하여 레이아웃 및 스타일링을 완성해주세요 */
+*:focus {
+  outline: 1px solid #24388d;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: #121212;
+  cursor: pointer;
+  block-size: 100vh;
+}
+
+.loginFrame {
+  display: flex;
+  justify-content: center;
+  inline-size: 460px;
+
+  .login-container {
+    display: flex;
+    flex-flow: nowrap column;
+    inline-size: 100%;
+  }
+
+  .naverLogo {
+    inline-size: 100%;
+    margin: 0 auto;
+    padding-block-end: 50px;
+  }
+
+  .getAccount {
+    inline-size: 100%;
+    block-size: 216px;
+
+    .formBox {
+      display: flex;
+      flex-direction: column;
+
+      input {
+        block-size: 45px;
+        padding: 7px;
+        font-size: 14px;
+        border: 1px solid #dadada;
+      }
+
+      .warningMS {
+        font-size: 14px;
+        color: #f00;
+        padding-block: 5px;
+      }
+    }
+
+    .passKeyBtn {
+      inline-size: 100%;
+      block-size: 45px;
+      font-size: 16px;
+      font-weight: 700;
+      color: #fff;
+      background: #03cf5d;
+      border: none;
+    }
+  }
+
+  .checkLogin {
+    background: transparent;
+    border: none;
+    font-size: 16px;
+  }
+
+  .ipSave {
+    display: flex;
+    align-content: center;
+    padding-block: 5px;
+  }
+
+  .bottomCheckbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block-start: 10px;
+  }
+  .ipSave svg {
+    padding-right: 5px;
+  }
+
+  .saveMenu a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #121212;
+  }
+
+  .saveMenu .onoffAlert {
+    padding-left: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .loginFrame {
+    inline-size: 100%;
+  }
+
+  .login-container {
+    inline-size: 100%;
+  }
+
+  .naverLogo {
+    inline-size: 100%;
+  }
+}
